@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>u_parent_list</basic_apply_to>
+        <basic_query_from>u_child_list</basic_query_from>
+        <insert_callback/>
+        <name>Table Parent - Child</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery("u_relationship_name", parent.u_parent_name);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 07:10:19</sys_created_on>
+        <sys_id>f151bdd4832b42100b76f120feaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Parent - Child</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_relationship_f151bdd4832b42100b76f120feaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 07:10:19</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=f151bdd4832b42100b76f120feaad350"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9df3b5c53b070ed8677f04e0b5e45ab3</instance_id>
+        <instance_name>dev277127</instance_name>
+        <name>sys_relationship_f151bdd4832b42100b76f120feaad350</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;u_parent_list&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;u_child_list&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Table Parent - Child&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery("u_relationship_name", parent.u_parent_name);
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-18 07:10:19&lt;/sys_created_on&gt;&lt;sys_id&gt;f151bdd4832b42100b76f120feaad350&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Table Parent - Child&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_f151bdd4832b42100b76f120feaad350&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-18 07:10:19&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f151bdd4832b42100b76f120feaad350"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-154727700</payload_hash>
+        <record_name>Table Parent - Child</record_name>
+        <reverted_from/>
+        <source>c128370ce492021008dda4ccc4008064</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 07:10:19</sys_created_on>
+        <sys_id>7c737598832b42100b76f120feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c4ad72cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 07:10:19</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>70737598112b4210a8241dd079d2b30d</update_guid>
+        <update_guid_history>70737598112b4210a8241dd079d2b30d:-154727700</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 07:52:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>070cd23830074e9c8084614f02a443a4</sys_id>
+        <sys_metadata>f151bdd4832b42100b76f120feaad350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Parent - Child</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Parent List">03a04a46835746100b76f120feaad32f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_relationship_f151bdd4832b42100b76f120feaad350</sys_update_name>
+        <sys_update_version display_value="sys_relationship_f151bdd4832b42100b76f120feaad350">7c737598832b42100b76f120feaad30d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 07:52:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
